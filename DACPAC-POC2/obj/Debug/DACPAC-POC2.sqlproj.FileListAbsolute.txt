@@ -1,0 +1,5 @@
+C:\Users\Teja\Documents\Visual Studio 2015\Projects\DACPAC-POC2\DACPAC-POC2\bin\Debug\DACPAC-POC2.dacpac
+C:\Users\Teja\Documents\Visual Studio 2015\Projects\DACPAC-POC2\DACPAC-POC2\bin\Debug\DACPAC_POC2.dll
+C:\Users\Teja\Documents\Visual Studio 2015\Projects\DACPAC-POC2\DACPAC-POC2\bin\Debug\DACPAC_POC2.pdb
+C:\Users\Teja\Documents\Visual Studio 2015\Projects\DACPAC-POC2\DACPAC-POC2\obj\Debug\DACPAC_POC2.dll
+C:\Users\Teja\Documents\Visual Studio 2015\Projects\DACPAC-POC2\DACPAC-POC2\obj\Debug\DACPAC_POC2.pdb
