@@ -49,3 +49,11 @@ try {
 catch [Microsoft.SqlServer.Dac.DacServicesException] {
     throw ('Deployment failed: ''{0}'' Reason: ''{1}''' -f $_.Exception.Message, $_.Exception.InnerException.Message)
 }
+
+#C:\Users\Teja\Desktop\deploy.ps1 -targetConnectionString "server=(local);Data Source=RAVITEJA;Persist Security Info=True;User ID=sa;Password=teja_101;Pooling=False;MultipleActiveResultSets=False;Connect Timeout=60;Encrypt=False;TrustServerCertificate=True" -Dacpac "C:\Users\Teja\Documents\Visual Studio 2015\Projects\DACPAC-POC2\DACPAC-POC2\bin\Debug\DACPAC-POC2.dacpac" -targetDatabaseName "ART1" -Profile "ART"
+
+#Data Source=RAVITEJA;Persist Security Info=False;User ID=sa;Pooling=False;MultipleActiveResultSets=False;Connect Timeout=60;Encrypt=False;TrustServerCertificate=True;Authentication="Sql Password"
+
+#C:\Users\Teja\Desktop\deploy.ps1 -targetConnectionString "server=(local);Data Source=RAVITEJA;Persist Security Info=False;User ID=sa;Password=teja_101;Pooling=False;MultipleActiveResultSets=False;Connect Timeout=60;Encrypt=False;TrustServerCertificate=True;Authentication=Sql Password" -Dacpac "C:\Users\Teja\Documents\Visual Studio 2015\Projects\DACPAC-POC2\DACPAC-POC2\bin\Debug\DACPAC-POC2.dacpac" -targetDatabaseName "ART1" -Profile "ART"
+
+#C:\Users\Teja\Desktop\deploy.ps1 -targetConnectionString "server=(local);Data Source=RAVITEJA;Persist Security Info=False;User ID=sa;Password=teja_10;Pooling=False;MultipleActiveResultSets=False;Connect Timeout=60;Encrypt=False;TrustServerCertificate=True;Authentication=Sql Password" -Dacpac "C:\Users\Teja\Documents\Visual Studio 2015\Projects\DACPAC-POC2\DACPAC-POC2\bin\Debug\DACPAC-POC2.dacpac" -targetDatabaseName "ART1" -Profile "ART"
