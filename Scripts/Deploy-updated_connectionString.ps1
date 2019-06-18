@@ -47,3 +47,5 @@ catch [Microsoft.SqlServer.Dac.DacServicesException] {
 #C:\Users\Teja\Desktop\Deploy-updated.ps1 -serverName "local" -userName "sa" -Password "teja_101" -Dacpac "C:\Users\Teja\Documents\Visual Studio 2015\Projects\DACPAC-POC2\DACPAC-POC2\bin\Debug\DACPAC-POC2.dacpac" -targetDatabaseName "ART1"
 
 #C:\Users\Teja\Desktop\Deploy-updated.ps1 -serverName "RAVITEJA" -userName "sa" -Password "teja_101" -Dacpac "C:\Users\Teja\Documents\Visual Studio 2015\Projects\DACPAC-POC2\DACPAC-POC2\bin\Debug\DACPAC-POC2.dacpac" -targetDatabaseName "ARTART"
+
+#$ConnectionString="server=$serverName;User ID=$userName;Password=$Password;Integrated Security=True;Persist Security Info=True;Pooling=False;MultipleActiveResultSets=False;Connect Timeout=60;Encrypt=False;TrustServerCertificate=True"
